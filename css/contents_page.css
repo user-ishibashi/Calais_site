@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*基本レイアウトここから↓*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+.gotop{
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+}
+
+.gotop img{
+	width: 130px;
+}
+
+
+body{
+	margin: 0;
+	background-image: url("../haikei.jpg");
+	background-repeat: repeat;
+	font-family: "富士ポップ";
+
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #F9D82A;
+}
+.contents_nav{
+	background: #BD6017;
+	width: 100%;
+	height: 120px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.contents_nav li{
+	margin-left: 90px;
+	font-size: 30px;
+	float: left;
+	list-style-type: none;
+}
+
+.jusyo{
+	position: absolute;
+	top: 0;
+	right: 0px;
+	text-align: center;
+	background:#571A09;
+	height: 120px;
+	width: 390px;
+	color: #fff;
+}
+p{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.tle{
+	font-size: 30px;
+}
+/*基本レイアウトここまで↑*/
+
+.pankuzu{
+	margin-top: 35px;
+	margin-left: 80px;
+}
+
+.pankuzu li{
+	float: left;
+	margin-left: 25px;
+	list-style: none;
+	font-size: 25px;
+	color:#330607;
+}
+
+.pankuzu a{
+	color:#330607;
+}
+
+.pankuzu a:hover{
+	color:#BB401D;
+}
+
+/*メニュ―レイアウトここから↓*/
+
+.menu{
+	color: #49190A;
+}
+
+.menu h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 80px;
+}
+
+.menu h2{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+
+.lanch{
+	display: grid;
+	gap: 26px;
+	grid-template-columns: 250px 250px 100px;
+ 	 align-items: center;
+ 	 justify-content: center;
+	 margin-right: 150px;
+}
+
+.lanch img{
+	width: 250px;
+}
+
+.item{
+	margin-top: 20px;
+	width: 250px;
+}
+
+.item p{
+	position: relative;
+	left: 80px;
+	bottom: 10px;
+	text-align: center;
+}
+
+footer{
+	background: #2E0506;
+	text-align: center;
+	padding: 26px 0;
+	margin-top: 100px;
+	color: #fff;
+}
+/*メニュ―レイアウトここまで↑*/
+
+
+/*コンタクトレイアウトここから↓*/
+
+.contact h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 100px;
+	color: #571A09;
+}
+
+form{
+	font-size: 30px;
+	color: #571A09;
+	margin-top: 60px;
+	margin-left: 290px;
+	margin-bottom: 100px;
+}
+
+form div{
+	margin-bottom: 14px;
+}
+
+label{
+	form-size:1.125rem;
+	margin-bottom: 10px;
+	display: block;
+	}
+
+input[type="text"],
+input[type="email"],
+textarea{
+	background: rgba(255,255,255,.5);
+	border: 1px #fff solid;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+	width: 100%;
+	max-width: 240px;
+}
+textarea{
+	width: 100%;
+	max-width: 480px;
+	height: 6rem;
+}
+input[type="submit"]{
+	border: none;
+	cursor: pointer;
+	line-height: 1;
+}
+
+.button{
+	color: #fff;
+	background-color: #571A09;
+	padding:10px;
+	border-radius: 5px;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+
+/*コンタクトレイアウトここまで↑*/
+
